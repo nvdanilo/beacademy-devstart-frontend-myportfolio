@@ -124,7 +124,7 @@ header .container nav .menu-social {
     margin: 0 auto;
 }
 
-.s.success .container {
+.s-success .container {
     display: flex;
     align-items: center;
     gap: 4.4rem;
@@ -177,4 +177,25 @@ header .container nav .menu-social {
     font-weight: 300;
     font-size: 3.2rem;
     line-height: 3.9rem;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: var(--black-color-medium);
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container .copy {
+    color: var(--rgba-white);
+    font-weight: 400;
+    line-height: 2.4rem;
+    padding: 5.2rem 0;
 }
