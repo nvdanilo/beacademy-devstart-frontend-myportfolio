@@ -44,6 +44,12 @@ h2 span {
     background-color: var(--primary-color);
     color: var(--black-color);
     padding: 1rem 2.6rem;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--white-color);
+    transform: scale(1.04);
 }
 
 .btn-primary.empty {
@@ -51,6 +57,11 @@ h2 span {
     border-radius: 2.4rem;
     color: var(--primary-color);
     background-color: transparent;
+}
+
+.btn-primary.empty:hover {
+    color: var(--black-color);
+    background-color: var(--primary-color);
 }
 
 .menu-item {

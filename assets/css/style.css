@@ -106,7 +106,15 @@ header .container nav .menu-social {
     align-items: center;
     justify-content: space-between;
     gap: 1.6rem;
-    margin-top: 2.3rem;    
+    margin-top: 2.3rem;  
+}
+
+.s-hero .container .title-box .techs img {
+    transition: all 0.2s;
+}
+
+.s-hero .container .title-box .techs img:hover {
+    transform: translateY(-12%);
 }
 
 .s-hero .container .title-box .btn-primary {
