@@ -187,6 +187,47 @@ header .container nav .menu-social {
     line-height: 3.9rem;
 }
 
+/* SECTION ABOUT */
+
+.s-about {
+    background-color: var(--black-color-medium);
+    padding: 6rem 0;
+}
+
+.s-about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-about .container .about-me {
+    width: 100%;
+    max-width: 71rem;
+}
+
+.s-about .container .about-me h2 {
+    font-weight: 900;
+}
+
+.s-about .container .about-me p {
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--rgba-white);
+    margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 3.2rem;
+    align-items: flex-end;
+}
+
+.s-about .container .my-picture img {
+    border-radius: 4px;
+}
+
+
 
 /* FOOTER */
 
