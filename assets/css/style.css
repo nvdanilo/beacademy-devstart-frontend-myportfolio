@@ -228,6 +228,45 @@ header .container nav .menu-social {
 }
 
 
+/* SECTION CASES */
+
+.s-cases {
+    padding: 5rem 0rem;
+}
+
+.s-cases .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-cases .container .title-cases {
+    margin-bottom: 7.4rem;
+}
+
+.s-cases .container .title-cases h2 {
+    font-weight: 900;
+}
+
+.s-cases .container .cases {
+    display: flex;
+    width: 100%;
+}
+
+.s-cases .container .cases .case img {
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.s-cases .container .cases .case img:hover {
+    transform: translateY(-2%);
+}
+
+.s-cases .container .cases .case:nth-child(2) {
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: -1.6rem;
+}
 
 /* FOOTER */
 
