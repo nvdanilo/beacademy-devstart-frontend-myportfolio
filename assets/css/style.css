@@ -27,10 +27,9 @@ header .container nav .menu {
     justify-content: space-between;
 }
 
-header .container nav .menu li{
+header .container nav .menu li {
     margin-right: 4.8rem;
 }
-
 
 header .container nav .menu-social {
     display: flex;
@@ -40,7 +39,13 @@ header .container nav .menu-social {
     gap: 3.4rem;
 }
 
+header .container nav .menu-social li a {
+  transition: all 0.2s;
+}
 
+header .container nav .menu-social li a:hover {
+    filter: brightness(0.6);
+  }
 
 /* SECTION HERO */
 
@@ -154,6 +159,12 @@ header .container nav .menu-social {
     border-radius: 4px;
     margin-right: 3.1rem;
     cursor: pointer;
+    transition: all 0.2s;
+}
+
+.s-success .container .cards .card:hover {
+    filter: brightness(0.9);
+    transform: scale(1.01);
 }
 
 .s-success .container .cards .card .card-title {
@@ -221,6 +232,14 @@ header .container nav .menu-social {
     gap: 1.6rem;
     margin-top: 3.2rem;
     align-items: flex-end;
+}
+
+.s-about .container .about-me ul li {
+    transition: all 0.2s;
+}
+
+.s-about .container .about-me ul li:hover {
+    transform: translateY(-8%);
 }
 
 .s-about .container .my-picture img {
@@ -313,7 +332,7 @@ header .container nav .menu-social {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 1.7rem;
+    margin-top: 1.9rem;
 }
 
 /* FOOTER */
